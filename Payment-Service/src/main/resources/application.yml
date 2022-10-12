@@ -1,0 +1,11 @@
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    eureka-server-port: 8761
+  instance:    hostname: localhost
+    
+server:  port: 8081
+    
+spring:  application:    name: PAYMENT-SERVICE
+  
