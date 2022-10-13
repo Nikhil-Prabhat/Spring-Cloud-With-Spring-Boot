@@ -1,0 +1,13 @@
+# Define the load balancing properties for Ribbon
+
+chatbook:
+  ribbon:
+    eureka:
+      enabled: false
+    listOfServers: localhost:8080,localhost:8081,localhost:8083
+    ServerListRefreshInterval: 2000
+    
+server:
+  port: 9090
+  
+
