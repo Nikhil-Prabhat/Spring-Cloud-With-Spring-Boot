@@ -80,6 +80,11 @@ Key/Value Store − It can make use of Consul's hierarchical key/value store for
 Multi Datacenter Deployment − Consul supports multiple datacenters. It is used for building additional layers of abstraction to grow to multiple regions.
 Web UI − Consul provides its users a beautiful web interface using which it can be easy to use and manage all of the features in consul.
 
+Netflix Ribbon - Load Balancer
+Sleuth         - Trace Id generator
+Zipkin         - Kibana
+Zuul           - API Gateway
+
 Hystrix (Fault Tolerance) :
 
 A typical distributed system consists of many services collaborating together.
