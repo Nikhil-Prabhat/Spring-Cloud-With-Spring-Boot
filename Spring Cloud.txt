@@ -85,6 +85,12 @@ Sleuth         - Trace Id generator
 Zipkin         - Kibana
 Zuul           - API Gateway
 
+Resilience :
+Resilience refers to the ability of a system to recover quickly from failures, disruptions, or adverse conditions and continue functioning without significant impact on overall performance.
+
+Fault Tolerance :
+Fault tolerance refers to the ability of a system to continue operating and providing services despite the occurrence of faults, errors, or failures in its components or subsystems.
+
 Hystrix (Fault Tolerance) :
 
 A typical distributed system consists of many services collaborating together.
