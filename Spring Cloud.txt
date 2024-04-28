@@ -32,7 +32,7 @@ The Feign is a declarative web service (HTTP client) developed by Netflix. Its a
 It is a library for creating REST API clients. It makes web service clients easier. The developers can use declarative annotations to call the REST services instead of writing representative boilerplate code.
 
 Spring Cloud OpenFeign :
-Spring Cloud OpenFeign provides OpenFeign integrations for Spring Boot apps through auto-configuration and binding to the Spring Environment. Without Feign, in Spring Boot application, we use RestTemplate to call the User service.
+Spring Cloud OpenFeign provides OpenFeign integrations for Spring Boot apps through auto-configuration and binding to the Spring Environment. Without Feign, in Spring Boot application, we use RestTemplate and Unirest to call the User service.
 
 Spring Cloud Sleuth :
 We've all had the unfortunate experience of trying to diagnose a problem with a scheduled task, a multi-threaded operation, or a complex web request. Often, even when there is logging, it is hard to tell what actions need to be correlated together to create a single request.
