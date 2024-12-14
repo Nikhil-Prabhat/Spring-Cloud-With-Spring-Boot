@@ -1,3 +1,14 @@
+Spring Cloud :
+Spring Cloud is a collection of tools and frameworks provided by spring to develop modern, scalable and distributed solution. It provides various options:
+Eureka Discovery Server
+Load Balancing
+Fault Tolerance
+Resilience - handling  frequent requests and concurrent requests
+Feign Client
+Zuul Gateway
+Kibana 
+Sleuth
+
 Eureka Server :
 Eureka Server is an application that holds the information about all client-service applications. Every Micro service will register into the Eureka server and Eureka server knows all the client applications running on each port and IP address. Eureka Server is also known as Discovery Server.In simple word Eureka is a service Registry or we can say it is an embedded server provided by Netflix third party which integrate with spring framework.
 Main purpose to use Eureka : Micro service Registration and Discovery with Spring Cloud and Netflix's Eureka
