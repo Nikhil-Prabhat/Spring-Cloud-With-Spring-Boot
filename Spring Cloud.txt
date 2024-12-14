@@ -80,6 +80,11 @@ Key/Value Store − It can make use of Consul's hierarchical key/value store for
 Multi Datacenter Deployment − Consul supports multiple datacenters. It is used for building additional layers of abstraction to grow to multiple regions.
 Web UI − Consul provides its users a beautiful web interface using which it can be easy to use and manage all of the features in consul.
 
+Service Discovery can also be achieved through Eurkea Server but Consul is a kind of upgraded version of it.
+Eureka Server provides basic health check but consul provides a more advanced health check.
+Eureka Server doesn't provide key/value store.
+Eureka server doesn't handle secure communication.
+
 Netflix Ribbon - Load Balancer
 Sleuth         - Trace Id generator
 Zipkin         - Kibana
